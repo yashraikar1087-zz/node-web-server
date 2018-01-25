@@ -20,10 +20,10 @@ app.use((req,res,next)=>{
     next();
 });
 
-app.use((req,res,next)=>{
-    res.render('maintence.hbs',{
-        pageTitle:'maintainence'
-    });
+// app.use((req,res,next)=>{
+//     res.render('maintence.hbs',{
+//         pageTitle:'maintainence'
+//     });
     //next();
 });
 
