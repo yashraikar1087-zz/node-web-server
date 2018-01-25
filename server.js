@@ -25,7 +25,7 @@ app.use((req,res,next)=>{
 //         pageTitle:'maintainence'
 //     });
     //next();
-});
+// });
 
 
 hbs.registerHelper('getCurrentYear',()=>{
